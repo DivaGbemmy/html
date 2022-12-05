@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1,h2,h3 {
+margin: 20px;
+font-style:italic;
+color:blue;
+font-size: larger;
+}
+
+h1,h2,h3 {
+color: green
+}
+
+h4,h5,h6 {
+font-size: 20px;
+color: blueviolet;
+font-style: oblique;
+}
+
+#tel {
+width: 50%;
+}

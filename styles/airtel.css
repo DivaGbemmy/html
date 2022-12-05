@@ -1,0 +1,146 @@
+/*  airtel logo style */
+#logo { 
+  /* border: 3px solid #73AD21; */
+  width: 12%;
+  height: 5%;
+  margin-top: 25px;
+  margin-left: 10px;
+}
+ /* help logo style */
+#help {
+  /* border: 3px solid #73AD21; */
+  width: auto;
+  height: auto;
+  position: absolute;
+  right: 20px;
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+/* login and register style */
+#login{
+  order: 1px solid green;
+  float: left;
+  margin-left: 580px;
+  color: dimgrey;
+  border-bottom: 3px solid crimson;
+  padding-bottom: 0px;
+  /* width: 6%; */
+  /* padding: 10px; */
+  /* height: 2px; */
+}
+#register{
+  /* border: 1px dotted blue; */
+  float: right;
+  margin-right: 530px;
+  color: dimgrey;
+}
+
+#register:hover {
+  border-bottom: 3px solid crimson;
+  padding-bottom: 0px;
+  color: crimson;
+}
+
+#login, #register {
+  font-size: 30px;
+  margin-bottom: 0px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* slipting style */
+.container {
+  width: 100%;
+  display: flex;
+}
+
+.left, .right {
+  width: 50%;
+  height: 73vh;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 0px;
+  margin-left: 20px;
+}
+
+.left {
+  background: rgba(220, 220, 220, 0.308);
+}
+
+.right {
+  background-color: white;
+}
+ /* style for text split-left */
+
+ h1, h2 {
+  font-size: 60px;
+  padding-left: 20px;
+  font-family:'Times New Roman', Times, serif;
+ }
+
+ h1 {
+  margin-bottom: 0%;
+  color: crimson
+ }
+
+ h2 {
+  margin-top: 0%;
+  color: darkred
+ }
+
+ /* style for the image in split-left */
+ img {
+  margin-left: 350px;
+ }
+ 
+ /* Style inputs */
+input[type=text],[type=password] {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  /* display: inline-block; */
+  border: 1px solid white;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin: auto;
+  font-size: 18px;  
+  margin-left: 40px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.37)
+}
+
+/* style for password and number text */
+#alt {
+  margin-top: 100px;
+}
+#password,#alt {
+  margin-left: 40px;
+  color: deepskyblue;
+}
+
+/* Set a style for login botton */
+#button {
+  background-color:rgb(220, 20, 60);
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  cursor: pointer;
+  width: 5% 15px;
+  margin-bottom: 50px;
+  position: absolute;
+  right: 100px;
+  font-size: 15px;
+}
+/* Set a style for forget password */
+#fogot-password {
+  background-color:white;
+  color: cornflowerblue;
+  padding: 10px 25px;
+  border: none;
+  cursor: pointer;
+  width: 5% 15px;
+  margin-bottom: 50px;
+  position: absolute;
+  right: 80px;
+  font-size: 15px;
+}

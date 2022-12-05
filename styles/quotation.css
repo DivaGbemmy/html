@@ -1,0 +1,13 @@
+h3 {
+    text-align: center;
+} 
+
+/* #personal {
+    position: relative;   
+} */
+
+#personal pre {
+    /* text-align: left; */
+    position: relative;
+    left: 800px;
+}
